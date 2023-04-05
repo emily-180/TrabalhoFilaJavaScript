@@ -81,7 +81,8 @@ function mostrarMensagemRemocao(pessoaAtendida) {
  // Função para mostrar a  fila
  function mostrarFila() {
     const filaElemento = document.getElementById("pessoasFila");
-    filaElemento.textContent = minhaFila.toString();   
+    filaElemento.innerHTML = minhaFila.toString();   
+ 
 //
 }
 //--------------------------------------------------------------------------------------------
